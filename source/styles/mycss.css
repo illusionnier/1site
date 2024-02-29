@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+    font-family: Roboto, serif;
+    background: linear-gradient(35deg, #1a0910 5%, #621564 100%);
+    font-size: 20px;
+}
+p {
+    color: honeydew;
+}
+
+.nav-link {
+    color:grey;
+}
+
+.navbar-nav .nav-link.active {
+    color:honeydew;
+}
+
+.navbar-toggler {
+    background-color: honeydew;
+}
+
+.card-img-top {
+    margin-left: 30px;
+    width: 300px;
+    height: 300px;
+    
+}
+.sidebar {
+    color: honeydew;
+    background: linear-gradient(270deg, #2f282b 5%, #a19999 100%);
+}
+
+.card {
+    color: honeydew;
+    background: linear-gradient(270deg, #2f282b 5%, #a19999 100%);
+}
+
+.card a {
+    text-decoration: none;
+    color: honeydew
+}
+
+.w-100 {
+    width: 300px;
+    height: 500px;
+}
+
+.slide-text{
+    color: honeydew;
+    margin: auto auto;
+
+}
+footer,
+.btn-outline-primary {
+    background: linear-gradient(270deg, #88033c 5%, #4d4a4a 100%);
+
+}
+
+.call-anim {
+    animation: call 2s ease 0s infinite normal forwards;
+}
+@keyframes call {
+	0%,
+	100% {
+		transform: rotate(0deg);
+		transform-origin: 100% 50%;
+	}
+
+	10% {
+		transform: rotate(2deg);
+	}
+
+	20%,
+	40%,
+	60% {
+		transform: rotate(-4deg);
+	}
+
+	30%,
+	50%,
+	70% {
+		transform: rotate(4deg);
+	}
+
+	80% {
+		transform: rotate(-2deg);
+	}
+
+	90% {
+		transform: rotate(2deg);
+	}
+}
+
+@media (max-width: 755px) {
+    .carousel-indicators{
+        display: none;
+    }
+}
+.media-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-text {
+    color: honeydew;
+    margin: auto auto;
+}
